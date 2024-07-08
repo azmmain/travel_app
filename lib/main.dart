@@ -104,8 +104,8 @@ int flag = 0;
 class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    width = MediaQuery.of(context).size.shortestSide; // 获取屏幕宽度
-    height = MediaQuery.of(context).size.longestSide; // 获取屏幕高度
+    width = MediaQuery.of(context).size.shortestSide; // 获取的屏幕宽度
+    height = MediaQuery.of(context).size.longestSide; // 获取的屏幕高度
     double h = 100;
     double w = 100;
     return Scaffold(
